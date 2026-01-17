@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Rates Widget</title>
+    <style>
+        /* Removes default browser margins so widget fits flush in Notion */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Centers widget if Notion block is wide */
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="mnd-rates-widget" style="width: 650px; height: 340px; font-size: 12px; ">
+        <div class="w-header" style="text-align: center; padding:4px 0;background-color: #336699; color: #FFFFFF;">
+            <a href="https://www.mortgagenewsdaily.com/mortgage-rates" target="_blank" style="color: #FFFFFF;text-decoration:none;">Home Loan Rates</a>
+        </div>
+        
+        <iframe src="https://widgets.mortgagenewsdaily.com/widget/f/rates?t=large&sn=true&c=336699&u=&cbu=&w=648&h=290" width="650" height="290" frameborder="0" scrolling="no" style="border: solid 1px #336699; border-width: 0 1px;box-sizing:border-box;width:650px;height:290px;display:block;"></iframe>
+        
+        <div class="w-footer" style="text-align: center; padding:4px 0;background-color: #336699; color: #FFFFFF;">
+            View More <a href="https://www.mortgagenewsdaily.com/mortgage-rates" target="_blank" style="color: #FFFFFF;text-decoration:none;">Refinance Rates</a>
+        </div>
+    </div>
+    </body>
+</html>
